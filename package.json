@@ -1,0 +1,37 @@
+{
+  "name": "ember-cli-deploy-url-tagger",
+  "version": "0.0.1",
+  "description": "Asset URL tagging for ember-cli-deploy.",
+  "keywords": [
+    "ember-addon",
+    "ember-cli-deploy-plugin"
+  ],
+  "repository": "https://github.com/MammothHR/ember-cli-deploy-url-tagger",
+  "license": "MIT",
+  "author": "MammothHR",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "ember build",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "ember-cli-deploy-plugin": ""
+  },
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "eslint": "^3.18.0",
+    "eslint-config-mammoth": "0.1.0",
+    "mocha": "",
+    "mock-require": "",
+    "eslint-plugin-mocha": ""
+  },
+  "engines": {
+    "node": "6.* || 8.* || >= 10.*"
+  },
+  "ember-addon": {
+    "configPath": "tests/dummy/config"
+  }
+}
